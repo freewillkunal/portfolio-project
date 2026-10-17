@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #f2f4f7;
+  color: #333;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  background-color: #1a3fa0;
+  color: white;
+  text-align: center;
+  padding: 15px 0 10px;
+  z-index: 100;
+}
+
+.site-header h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.site-header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.section {
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.section h2 {
+  color: #1a3fa0;
+  font-size: 1.4rem;
+  margin-bottom: 25px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.profile-circle {
+  width: 220px;
+  height: 220px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background-color: #cfe0fb;
+  display: flex;
+  align-items: center;
+}
+
+.profile-circle img {
+  width: 100%;
+  height: 100%;
+}
+
+.intro-text {
+  color: #d96c3f;
+  font-style: italic;
+  margin: 0 auto;
+}
+
+.skills-table {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.skills-table th {
+  background-color: #1a3fa0;
+  color: white;
+  padding: 10px;
+  font-size: 0.85rem;
+}
+
+.skills-table td {
+  padding: 10px;
+  border: 1px solid #cfe0fb;
+  background-color: white;
+}
+
+.project-card {
+  background-color: white;
+  max-width: 500px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.project-card h3 {
+  color: #1a3fa0;
+  margin-bottom: 8px;
+}
+
+.project-card p {
+  color: #555;
+}
+
+.contact-form table {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form td {
+  padding: 10px;
+  text-align: left;
+}
+
+.contact-form label {
+  color: #d96c3f;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #cfe0fb;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+/* .contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #1a3fa0;
+} */
+
+.form-submit {
+  text-align: center !important;
+}
+
+.contact-form button {
+  background-color: #1a3fa0;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.contact-form button:hover {
+  background-color: #142f78;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1a3fa0;
+  color: white;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+.back-to-top:hover {
+  background-color: #142f78;
+}
